@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas minggu 5</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form action="index.php" method="post">
+        <h1>
+            <center>Biodata Pendaftaran Mahasiswa Baru </center>
+        </h1>
+        <hr>
+
+        <p><strong>DATA DIRI SISWA :</strong></p>
+        <table width="600" cellpadding="10" <div style='margin-left: 80px;' />
+
+        <tr>
+            <td>Nama Calon Siswa</td>
+            <td>: <input type="text" name="nama_siswa" </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>: <input type="radio" name="jenis_kelamin" value="laki laki" />Laki laki
+                <input type="radio" name="jenis_kelamin" valuue="perempuan" />Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>: <input type="text" name="ttl" /> </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>: <textarea></textarea> </td>
+        </tr>
+        <tr>
+            <td>No Telepon</td>
+            <td>: <input type="text" name="no telp" /> </td>
+        </tr>
+
+        <tr>
+            <td>Agama</td>
+            <td>: <select name="agama">
+                    <option value="-"></option>
+                    <option value="kristen">Kristen</option>
+                    <option value="islan">Islam</option>
+                    <option value="katholik">Katholik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Asal Sekolah</td>
+            <td>: <input type="text" name="asal_sekolah" />
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td>: <input type="file" name="choose file" /> </td>
+        </tr>
+        </table>
+
+        <div style='margin-top: 40px;' <p><strong>DATA DIRI ORANG TUA (AYAH):</strong></p>
+            <table width="500" cellpadding="10" <div style='margin-left: 80px;' />
+
+            <tr>
+                <td>Nama Ayah</td>
+                <td>: <input type="text" name="nama_ayah" /></td>
+            </tr>
+            <tr>
+                <td>Tempat/Tanggal Lahir</td>
+                <td>: <input type="text" name="ttl" /></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>: <select name="agama">
+                        <option value="-"></option>
+                        <option value="kristen">Kristen</option>
+                        <option value="islan">Islam</option>
+                        <option value="katholik">Katholik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>: <input type="text" name="pekerjaan"> </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>: <textarea></textarea></td>
+            </tr>
+            </table>
+
+            <div style='margin-top: 40px;' <p><strong>DATA DIRI ORANG TUA (IBU):</strong></p>
+                <table width="500" cellpadding="10" <div style='margin-left: 80px;' />
+
+                <tr>
+                    <td>Nama Ibu</td>
+                    <td>: <input type="text" name="nama_ibu" /></td>
+                </tr>
+                <tr>
+                    <td>Tempat/Tanggal Lahir</td>
+                    <td>: <input type="text" name="ttl" /></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>: <select name="agama">
+                            <option value="-"></option>
+                            <option value="kristen">Kristen</option>
+                            <option value="islan">Islam</option>
+                            <option value="katholik">Katholik</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>: <input type="text" name="pekerjaan"> </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>: <textarea></textarea></td>
+                    </table>
+                    <hr>
+
+                    <div style='margin-top:40px; margin-left: 450px;' <tr>
+                        <td>Tanggal Kirim</td>
+                        <td>: <input type="date" </td>
+                </tr>
+                <td> <input type="submit" name="submit" value="send" /></td>
+            </div>
+    </form>
+</body>
+
+</html>
