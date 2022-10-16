@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+    color: var(--color-text);
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: .3s;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-primary: #222831;
+    --color-second: #393E46;
+    --color-button: #FD7014;
+    --color-text: #EEEEEE;
+    --color-button2: #ff8d00;
+}
+
+nav {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    align-items: center;
+    transition: .3s;
+}
+
+
+
+nav ul li {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+}
+
+nav ul li::before {
+    content: '';
+    width: 100%;
+    border: 1px solid white;
+    bottom: 0;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: .3s;
+}
+
+nav ul li:hover::before {
+    transform: translateX(0);
+}
+
+
+
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
+
+footer{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+body{
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+

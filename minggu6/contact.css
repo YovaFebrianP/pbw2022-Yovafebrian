@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+body {
+  background-image: url(udinus-campus.jpg);
+  background-size: 100% 100%;
+  background-repeat: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "montserrat", sans-serif;
+  font-size: 10px;
+  height: 100vh;
+  margin: -20px 0 50px;
+  padding: 10px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px;
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 522px;
+  min-width: 370px;
+}
+.card-continer {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  height: 480px;
+  background-color: skyblue;
+}
+.right {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  height: 460px;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  height: 522px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.left-container {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+  line-height: 22px;
+}
+.left p {
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: large;
+  margin-bottom: 1rem;
+  margin-top: 60px;
+}
+
+.right-container {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+
+input,
+textarea {
+  background-color: skyblue;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid #00b4cf;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #00b4cf;
+  background-color: skyblue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80% ease-out;
+}
+
+button :hover {
+  opacity: 0.7;
+}
+textarea {
+  height: 90px;
+}
+
+.form h2 {
+  font-size: larger;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: #e6cbcb;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 0%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.active {
+  color: #2d2a2a;
+  font-size: larger;
+  font-style: italic;
+}
+.contact {
+  color: rgb(247, 245, 245);
+  font-size: larger;
+  font-style: italic;
+}
+.about {
+  color: black;
+  font-style: italic;
+  font-size: larger;
+}
+.home {
+  color: black;
+  font-size: 12px;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+}
