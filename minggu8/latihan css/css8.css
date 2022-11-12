@@ -1,0 +1,10 @@
+*{
+  padding:0%;   
+  margin: 0px;
+}
+p{
+    text-align: center;
+   margin: 50px;
+   background: blue;
+   padding: 50px;
+}
