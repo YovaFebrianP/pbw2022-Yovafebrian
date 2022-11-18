@@ -1,0 +1,96 @@
+body{
+    background: skyblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}
+
+h1{
+    color: black;
+}
+.ketengah{
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.kotak1{
+    background: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10%;
+}
+.kotak2{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 40px 20px 60px 90px ;
+}
+.kotak3{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 2px 140px 20px 60px;;
+}
+.kotak3{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 20px 10px 80px 10px;
+}
+
+.kotak4{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 0px 50px 0px 50px;
+}
+.kotak5{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 0px;
+}
+.kotak6{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 100%;
+}
+.kotak7{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius:40px 10px;
+}
+.kotak8{
+    background-color: blue;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10px 10px 50% 50%;
+}
